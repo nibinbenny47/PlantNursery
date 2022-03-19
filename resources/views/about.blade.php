@@ -6,8 +6,8 @@
 
 <body class="sub_page">
 <div class="hero_area">
-<div class="hero-bg">
-      <!-- <img src="images/hero-bg.jpg" alt=""> -->
+<div  ">
+
     </div>
 @endsection
   <section class="about_section layout_padding">
