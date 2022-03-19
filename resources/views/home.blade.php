@@ -3,6 +3,12 @@
 
 @section('page-content')
  <!-- slider section -->
+ @section('hero-bg-section')
+<div class="hero-bg">
+      <img src="assets/images/hero-bg.jpg" alt="">
+    </div> 
+
+ @endsection
  <section class="slider_section ">
       <div id="customCarousel1" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">

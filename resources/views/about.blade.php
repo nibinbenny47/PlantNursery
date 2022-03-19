@@ -1,7 +1,15 @@
 @extends("Layouts/app")
-@section("content")
-  <!-- about section -->
 
+@section("page-content")
+  <!-- about section -->
+@section('hero-bg-section')
+
+<body class="sub_page">
+<div class="hero_area">
+<div class="hero-bg">
+      <!-- <img src="images/hero-bg.jpg" alt=""> -->
+    </div>
+@endsection
   <section class="about_section layout_padding">
     <div class="container  ">
       <div class="row">
@@ -33,4 +41,5 @@
   </section>
 
   <!-- end about section -->
+
   @endsection

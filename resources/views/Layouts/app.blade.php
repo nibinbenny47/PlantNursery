@@ -34,9 +34,10 @@
 <body>
 
   <div class="hero_area">
-    <div class="hero-bg">
+      @yield('hero-bg-section')
+     <!-- <div class="hero-bg">
       <img src="assets/images/hero-bg.jpg" alt="">
-    </div>
+    </div>  -->
     <!-- header section strats -->
     <header class="header_section">
       <div class="container">
@@ -57,7 +58,7 @@
                 <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="about.html"> About</a>
+                <a class="nav-link" href="about"> About</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="plants.html">Plants</a>
