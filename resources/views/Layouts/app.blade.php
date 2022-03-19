@@ -22,7 +22,7 @@
   <link rel="stylesheet" type="text/css" href="/https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
 
   <!-- font awesome style -->
-  <link href="css/font-awesome.min.css" rel="stylesheet" />
+  <link href="assets/css/font-awesome.min.css" rel="stylesheet" />
 
   <!-- Custom styles for this template -->
   <link href="assets/css/style.css" rel="stylesheet" />
@@ -132,8 +132,7 @@
       </div>
     </header>
     <!-- end header section -->
-    @yield("content")
-
+@yield('page-content')
 
   <!-- footer section -->
   <footer class="footer_section">
@@ -215,7 +214,8 @@
     </div>
   </footer>
   <!-- footer section -->
-  <!-- jQery -->
+    <!-- jQery -->
+    <script src="assets/js/jquery-3.4.1.min.js"></script>
   <!-- popper js -->
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
   </script>
@@ -229,8 +229,10 @@
   <!-- Google Map -->
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap">
   </script>
-  <!-- End Google Map -->
 
 </body>
+  <!-- End Google Map -->
+
+
 
 </html>

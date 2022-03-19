@@ -1,8 +1,9 @@
-@extends("Layouts/app")
-@section("content")
 
-    <!-- slider section -->
-    <section class="slider_section ">
+@extends("Layouts/app")
+
+@section('page-content')
+ <!-- slider section -->
+ <section class="slider_section ">
       <div id="customCarousel1" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
@@ -758,7 +759,7 @@
         <div class="col-md-6 mx-auto">
           <div class="box">
             <div class="img-box">
-              <img src="images/w1.png" alt="">
+              <img src="assets/images/w1.png" alt="">
             </div>
             <div class="detail-box">
               <h5>
@@ -773,7 +774,7 @@
         <div class="col-md-6 mx-auto">
           <div class="box">
             <div class="img-box">
-              <img src="images/w2.png" alt="">
+              <img src="assets/images/w2.png" alt="">
             </div>
             <div class="detail-box">
               <h5>
@@ -788,7 +789,7 @@
         <div class="col-md-6 mx-auto">
           <div class="box">
             <div class="img-box">
-              <img src="images/w3.png" alt="">
+              <img src="assets/images/w3.png" alt="">
             </div>
             <div class="detail-box">
               <h5>
@@ -850,57 +851,8 @@
   </section>
   <!-- end contact section -->
 
-  <!-- client section -->
-
-  <section class="client_section layout_padding-bottom">
-    <div class="container">
-      <div class="heading_container heading_center psudo_white_primary mb_45">
-        <h2>
-          What Says Our <span>Customers</span>
-        </h2>
-      </div>
-      <div class="carousel-wrap row ">
-        <div class="owl-carousel client_owl-carousel">
-          <div class="item">
-            <div class="box">
-              <div class="img-box">
-                <img src="assets/images/client1.jpg" alt="" class="box-img">
-              </div>
-              <div class="detail-box">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
-                </p>
-                <h6>
-                  Adam Miller
-                </h6>
-                <p>
-                  magna aliqua
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="item">
-            <div class="box">
-              <div class="img-box">
-                <img src="images/client2.jpg" alt="" class="box-img">
-              </div>
-              <div class="detail-box">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
-                </p>
-                <h6>
-                  Lily James
-                </h6>
-                <p>
-                  magna aliqua
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
 
   <!-- end client section -->
-  @endsection
+   @endsection
+ 
+
