@@ -23,3 +23,6 @@ Route::get('/about', function () {
 Route::get('/plants', function () {
     return view('plants');
 });
+Route::get('/contact', function () {
+    return view('contact');
+});
